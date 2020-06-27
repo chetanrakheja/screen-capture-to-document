@@ -25,7 +25,7 @@ pip install autopy
 ### Step 4:
 save the python script to the location where you want to save the screenshots and document
 
-###Step 5:
+### Step 5:
 then in cmd go to that path and execute
 "py saveImgToDoc.py"
 this will run the Python script
