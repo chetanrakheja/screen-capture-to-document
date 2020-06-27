@@ -1,0 +1,2 @@
+# saveScreenShotsToDocument
+While Testing sometime we need to take screenshots as send it to someone maybe as steps to reproduce a bug. It was very time consuming process as I had to first take the screenshot and go to word file paste that and than comeback again run application take screen shots save to doc and so on, so to decrease my efforts I created a python script that take a screen shot and save it to document
