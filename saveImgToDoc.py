@@ -43,6 +43,7 @@ def exitFun():
   saveDoc(fileName+"_"+timenow)
 
 
+
 #on press function
 def on_press(key):
     check_key(key)
@@ -53,6 +54,7 @@ def on_press(key):
         	exitFun()
         	
         
+
 #on release function
 def on_release(key):  
     try:
@@ -87,7 +89,6 @@ currently_pressed = set()
 # Collect events until released
 with Listener(on_press=on_press,on_release=on_release) as listener:
   print("Created by Chetan Rakheja")
-  print("Email:- rakhejachetan@gmail.com OR chetanrakheja@gmail.com")
-  print("-------------------------------------------------------------")
   print("Press "+exit_combination_msg +" to exit and save the document")
   listener.join()
+
