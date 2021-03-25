@@ -5,7 +5,6 @@ import pyautogui
 import os
 from pynput.keyboard import Key, Listener
 import datetime
-import autopy
 
 currentDir = os.getcwd() 
 bad_chars = [';', ':', '!', "*","<",">","\"","/","|","?","*"]
@@ -64,7 +63,7 @@ def on_release(key):
    
 #save image as file and add image to doc
 def saveImg():
-	shot = autopy.bitmap.capture_screen()
+	shot = pyautogui.screenshot()
 	now = datetime.datetime.now()
 	timenow = now.strftime("%H_%M_%S.%f")[:-3]
 	path = currentDir + "\\shots\\"+str(datetime.date.today())
