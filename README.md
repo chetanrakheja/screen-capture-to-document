@@ -13,14 +13,13 @@ if you find a version of pip than run the following command in cmd to install th
 ### Step 3:
 Run below command in cmd to install dependencies
 
-**`pip install python-docx PyAutoGUI pynput autopy docx`**
+**`pip install python-docx PyAutoGUI pynput docx`**
 
 OR
 ```
 pip install python-docx
 pip install PyAutoGUI
 pip install pynput
-pip install autopy
 pip install docx
 ```
 ### Step 4:
