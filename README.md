@@ -13,7 +13,7 @@ if you find a version of pip than run the following command in cmd to install th
 ### Step 3:
 Run below command in cmd to install dependencies
 
-**`pip install python-docx PyAutoGUI pynput autopy`**
+**`pip install python-docx PyAutoGUI pynput autopy docx`**
 
 OR
 ```
@@ -21,6 +21,7 @@ pip install python-docx
 pip install PyAutoGUI
 pip install pynput
 pip install autopy
+pip install docx
 ```
 ### Step 4:
 save the python script to the location where you want to save the screenshots and document
