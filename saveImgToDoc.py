@@ -87,8 +87,7 @@ currently_pressed = set()
 
 # Collect events until released
 with Listener(on_press=on_press,on_release=on_release) as listener:
-  print("Created by Chetan Rakheja")
-  print("For More Inforation cantact me at rakhejachetan@gmail.com")
+  print("Created by Chetan Rakheja | rakhejachetan@gmail.com")
   print("Press PrtSc to take the Screenshot and save to folder and To Document")
   print("Press "+exit_combination_msg +" to exit and save the document")
   listener.join()
