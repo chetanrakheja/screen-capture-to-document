@@ -12,7 +12,7 @@ document = Document()
 screenshotShotcut= Key.print_screen #Screnshot Key 
 exit_combination_msg='ctrl_l(left ctrl) + Esc' #Exit Combination Message
 exit_combination = {Key.ctrl_l, Key.esc} #Exit Combination [Left control and Esc combination]
-
+defaultDocName = "testingScreenShots"
 imgCount = 1 
 
 
@@ -60,19 +60,15 @@ def saveDoc(fileName):
 
 #on exit function
 def exitFun():
-	now = datetime.datetime.now() #getting current date time
-	timenow = now.strftime("%H_%M_%S")
-
 	print("<===================================>")
-	print("Press Return Key to save Document name as Default name (testingScreenShots)")
+	print("Press Return Key to save Document name as Default name ("+defaultDocName+")")
 	fileName = input("Enter Document Name : ") # taking Document name
-
 	bad_chars = [';', ':', '!', "*","<",">","\"","/","|","?","*"] #list of char which needs to be removed from doc file name
 	for i in bad_chars : #Remove Bad Chars from document name
 		fileName = fileName.replace(i, '')
 
 	if(fileName==''): # if filename is not specified or got any error
-		fileName = 'testingScreenShots'
+		fileName = defaultDocName
 	saveDoc(fileName)
 
 
@@ -96,6 +92,7 @@ def saveImg():
 
 def printStartMsg():
 	print("-> Created by Chetan Rakheja | rakhejachetan@gmail.com | https://www.linkedin.com/in/chetanrakheja/")
+	print("_______________________")
 	print("Press PrtSc to take the Screenshot and save to folder and To Document")
 	print("Press "+exit_combination_msg +" to exit and save the document")
 	print("_______________________")
