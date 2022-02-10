@@ -27,7 +27,7 @@ save the python script to the location where you want to save the screenshots an
 
 ### Step 5:
 then in cmd go to that path and execute
-"py saveImgToDoc.py"
+**`py saveImgToDoc.py`**
 this will run the Python script
 
 OR just double click on saveImgToDoc.py program
@@ -36,9 +36,10 @@ OR just double click on saveImgToDoc.py program
 **whenever you press PrtSc it will save the screenshot to a folder named shots
 and to end the program and create the document press "Ctrl_l + Esc"(Left control key + Esc key)**
 
-it will ask of the filename you want to save it as to enter the filename or just click enter, If you have entered the file name it will save as filename_12_29_52. (Filename_currentHour_currentMinute_currentSec) otherwise, by default, it will save as testingScreenShots_ currentHour_currentMinute_currentSec (Eg testingScreenShots_13_02_34.docx)
+it will ask of the filename you want to save it as to enter the filename or just click enter, If you have entered the file name it will save as filename.docx otherwise, by default, it will save as testingScreenShots.docx
 
 It will display a location where the screenshot is saved, where documents are saved.
 
 Suggestions are most welcome
 Email: rakhejachetan@gmail.com, chetanrakheja@gmail.com
+LinkedIn: https://www.linkedin.com/in/chetanrakheja/

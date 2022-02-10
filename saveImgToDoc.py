@@ -63,7 +63,7 @@ def exitFun():
 	now = datetime.datetime.now() #getting current date time
 	timenow = now.strftime("%H_%M_%S")
 
-	print("---------------")
+	print("<===================================>")
 	print("Press Return Key to save Document name as Default name (testingScreenShots)")
 	fileName = input("Enter Document Name : ") # taking Document name
 
@@ -73,27 +73,25 @@ def exitFun():
 
 	if(fileName==''): # if filename is not specified or got any error
 		fileName = 'testingScreenShots'
-	saveDoc(fileName+"_"+timenow)
+	saveDoc(fileName)
 
 
 def createDirs():
+	global MasterPath
 	now = datetime.datetime.now()
 	currentDateTime = now.strftime("%d.%m.%y_%I%M%S%p")
-	global MasterPath
 	MasterPath = currentDir+"\\TestingData\\"+currentDateTime # create folder path of date time inside TestingData
 	os.makedirs(MasterPath+"\\"+ "shots") #creating all the folder to avoid errors
 
 # #save image as file and add image to doc
 def saveImg():
 	global imgCount
-	shot = pyautogui.screenshot() #Takke screenshot
+	shot = pyautogui.screenshot() #Take screenshot
 	path = MasterPath +"\\shots\\" #update Path
 	shot.save(path+'\\'+str(imgCount)+'.png') #Save Screenshot
 	addSSToDoc(path+'//'+str(imgCount)+'.png') # add Screenhsot to Doc
 	print('File Saved as ' +path+str(imgCount)+'.png') # Print Message of img saved
 	imgCount=imgCount +1 #increase img count
-
-
 
 
 def printStartMsg():
