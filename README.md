@@ -1,3 +1,8 @@
+
+![Alt Text](https://github.com/chetanrakheja/screen-capture-to-document/raw/master/saveScreenshotsToDoc.gif)
+# Video Tutorial
+[![SaveScreenshot To Document Video](https://img.youtube.com/vi/1wTYrVAAQLA/0.jpg)](https://www.youtube.com/watch?v=1wTYrVAAQLA "SaveScreenshot To Document Video")
+https://www.youtube.com/watch?v=1wTYrVAAQLA
 # Screen Capture To Document
 While Testing sometime we need to take screenshots as send it to someone maybe as steps to reproduce a bug. It was very time consuming process as I had to first take the screenshot and go to word file paste that and than comeback again run application take screen shots save to doc and so on, so to decrease my efforts I created a python script that take a screen shot and save it to document
 
@@ -43,5 +48,6 @@ It will display a location where the screenshot is saved, where documents are sa
 
 Suggestions are most welcome
 Email: rakhejachetan@gmail.com, chetanrakheja@gmail.com
-
+[![gmail badge](https://img.shields.io/badge/mail-rakhejachetan%40gmail.com-red?style=plastic&logo=gmail)](mailto:rakhejachetan@gmail.com?subject=[GitHub]%20screen-capture-to-document) , [![gmail badge](https://img.shields.io/badge/mail-chetanrakheja%40gmail.com-red?style=plastic&logo=gmail)](mailto:chetanrakheja@gmail.com?subject=[GitHub]%20screen-capture-to-document)
 LinkedIn: https://www.linkedin.com/in/chetanrakheja/
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/braydon-coyer/)

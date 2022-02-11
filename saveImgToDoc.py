@@ -91,6 +91,7 @@ def saveImg():
 
 
 def printStartMsg():
+	print("<---------------------------------------------------->")
 	print("-> Created by Chetan Rakheja | rakhejachetan@gmail.com | https://www.linkedin.com/in/chetanrakheja/")
 	print("_______________________")
 	print("Press PrtSc to take the Screenshot and save to folder and To Document")
