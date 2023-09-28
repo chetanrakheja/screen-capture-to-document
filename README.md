@@ -54,4 +54,4 @@ Email: rakhejachetan@gmail.com, chetanrakheja@gmail.com
 
 LinkedIn: https://www.linkedin.com/in/chetanrakheja/
 
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/braydon-coyer/)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/chetanrakheja/)
